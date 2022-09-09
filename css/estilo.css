@@ -1,0 +1,126 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    /*font-family: 'Lexend Deca', sans-serif;*/
+    font-size: 1.6rem;
+    line-height: 1.2;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.contenedor{
+    margin: 0 auto;
+    width: 90rem;
+    margin-top: 35rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+
+h3{
+    font-size: 2.3rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {color: #fff;}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.cuadros{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.izquierda{
+    padding: 3rem 5rem;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 2rem 0 0 2rem;
+}
+
+.izquierda .disco{
+    font-size: 1.4rem;
+}
+
+.insi{
+    color: hsl(277, 64%, 61%);
+}
+
+.izquierda h2{
+    color: #fff;
+}
+
+.izquierda p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0;
+}
+.cja1 h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.cja2 h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.cja3 h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.cja1 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .2rem; 
+}
+
+.cja2 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .2rem; 
+}
+
+.cja3 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .2rem; 
+}
+
+.derecha {
+    background-color: hsl(277, 64%, 61%);
+    background-image: url(../images/image-header-desktop.jpg);
+    background-blend-mode: multiply;
+    border-radius: 0 2rem 2rem 0;
+
+}
